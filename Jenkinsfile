@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'Centos'
+      image 'molecule_local/milcom/centos7-systemd'
     }
 
   }
